@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="tetris-game">
+    <div class="canvas-wrap" id="total-canvas">
+        <canvas id="board-canvas" class="center"></canvas>
+        <button onclick="start()" class="center start-button" id="start-button">スタート</button>
+    </div>
+    <div class="game-info">
+        <div class="score v-center">Score: <span id="score">0</span></div>
+        <div class="next-block v-center">Next Block:</div>
+        <div class="next-block-preview v-center"><canvas id="next-canvas"></canvas></div>
+    </div>
+    <script src="tetris.js"></script>
+    </section>
+</body>
+</html>

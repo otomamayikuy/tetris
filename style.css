@@ -1,0 +1,21 @@
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.v-center {
+    text-align: center;
+}
+.canvas-wrap {
+    position: relative;
+    height: 450px;
+}
+.game-info {
+    position: relative;
+}
+.start-button {
+    background-color: #dd0;
+    border-radius: 10px;
+    width: 100px;
+}
